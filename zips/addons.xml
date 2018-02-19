@@ -398,7 +398,6 @@ This is a Non-profit resource, organized solely for educational purposes which i
     <forum>http://noobsandnerds.com/support/showthread.php?tid=17614</forum>
     <website>http://totalrevolution.tv</website>
     <news>Added new class from OptimusGREEN allowing for custom add-on settings</news>
-    <source>https://github.com/totalrevolution/totalrevolution/tree/master/script.module.python.koding.aio</source>
   </extension>
 </addon>
 
