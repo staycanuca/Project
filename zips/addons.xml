@@ -448,7 +448,6 @@ This is a Non-profit resource, organized solely for educational purposes which i
                 <import addon="script.module.requests"/>
                 <import addon="script.module.six"/>
 		    <import addon="script.module.resolveurl" version="5.0.00" optional="true"/>
-                <!--<import addon="script.mrknow.urlresolver" version="2016.10.30.2" optional="true"/>-->
         </requires>
         <extension point="xbmc.python.module" library="lib"/>
         <extension point="xbmc.python.pluginsource" library="lib/default.py">
@@ -460,7 +459,6 @@ This is a Non-profit resource, organized solely for educational purposes which i
                 <description lang="en">Scrape common video host for URL's to be playable in XBMC/Kodi, simplifying addon development of video plugins requiring multi video hosts.
                 </description>
                 <license>GPL v3</license>
-                <source>https://gitlab.com/TeamUniversal/modules4all/raw/master/script.module.universalscrapers/</source>
         </extension>
 </addon>
 
