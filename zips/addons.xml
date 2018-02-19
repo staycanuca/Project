@@ -204,7 +204,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-    <addon id="repository.blamo" name="[COLOR red]Blamo Repo[/COLOR]" version="0.1.0" provider-name="Mr Blamo">
+    <addon id="repository.blamo" name="[COLOR red]Blamo Repo[/COLOR]" version="0.1.1" provider-name="Mr Blamo">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
@@ -228,6 +228,11 @@ This is a Non-profit resource, organized solely for educational purposes which i
                 <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
                 <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
             </dir>
+			<dir>
+				<info compressed="false">http://teamuniversal.xyz/modules4all/addons.xml</info>
+				<checksum>http://teamuniversal.xyz/modules4all/addons.xml.md5</checksum>
+				<datadir zip="true">http://teamuniversal.xyz/modules4all/</datadir>
+			</dir>
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary>The Official Repo for Mr Blamo</summary>
@@ -437,28 +442,6 @@ This is a Non-profit resource, organized solely for educational purposes which i
 		<description lang="en">Collection of modules used by Elysium</description>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 	</extension>
-</addon>
-
-<addon id="script.module.universalscrapers" name="Universal Scrapers" version="1.0.0" provider-name="Team Universal">
-        <requires>
-                <import addon="xbmc.python" version="2.1.0"/>
-                <import addon="script.module.beautifulsoup" version="3.2.1"/>
-                <import addon="script.module.futures" version="2.2.0"/>
-                <import addon="script.module.requests"/>
-                <import addon="script.module.six"/>
-		    <import addon="script.module.resolveurl" version="5.0.00" optional="true"/>
-        </requires>
-        <extension point="xbmc.python.module" library="lib"/>
-        <extension point="xbmc.python.pluginsource" library="lib/default.py">
-                <provides>executable</provides>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-                <platform>all</platform>
-                <summary lang="en">Scrape common video host for URL's to be playable in XBMC/Kodi.</summary>
-                <description lang="en">Scrape common video host for URL's to be playable in XBMC/Kodi, simplifying addon development of video plugins requiring multi video hosts.
-                </description>
-                <license>GPL v3</license>
-        </extension>
 </addon>
 
 <addon id="script.neptune.artwork" version="1.1.2" name="Neptune Rising Artwork" provider-name="Mr. Blamo">
